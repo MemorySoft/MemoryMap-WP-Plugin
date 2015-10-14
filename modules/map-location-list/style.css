@@ -1,0 +1,31 @@
+.mpfy-mll {  }
+.mpfy-mll-list {  }
+.mpfy-mll-paging { position: relative; margin-top: 8px; }
+
+.mpfy-mll-location { background: #FFFFFF; margin-top: 8px; }
+.mpfy-mll-location.active { background: #EEEEEE; }
+.mpfy-mll-location.mpfy-mll-paging-hidden { display: none; }
+.mpfy-mll-location.mpfy-mll-filter-hidden { display: none; }
+.mpfy-mll-location .mpfy-mll-l-heading { position: relative; padding: 15px; border: 2px solid #c6c6c6; overflow: hidden; cursor: pointer; }
+.mpfy-mll-location .mpfy-mll-l-content { display: none; position: relative; padding: 15px 15px 0 15px; border: 2px solid #c6c6c6; border-top: 0; }
+.mpfy-mll-location .mpfy-mll-l-content p { margin-bottom: 15px; }
+
+.mpfy-mll-location .mpfy-mll-l-pin { position: absolute; left: 0; top: 0; width: 57px; height: 57px; background: no-repeat center center; }
+.mpfy-mll-location .mpfy-mll-l-title { font-weight: bold; padding: 0 0 0 42px; line-height: 28px; }
+.mpfy-mll-location .mpfy-mll-l-categories { display: inline; float: right; }
+.mpfy-mll-location .mpfy-mll-l-categories a { display: inline-block; font-size: 13px; line-height: 25px; background: #f4f4f4; color: #535d66; border: 1px solid #c8c8c8; border-radius: 3px; margin-left: 5px; padding: 0 10px; white-space: nowrap; text-decoration: none; font-weight: normal; }
+.mpfy-mll-location .mpfy-mll-l-categories a:hover { text-decoration: none; background: #535d66; color: #f4f4f4; }
+
+.mpfy-layout-mobile .mpfy-mll-location .mpfy-mll-l-categories { display: block; float: none; margin-top: 10px; }
+.mpfy-layout-mobile .mpfy-mll-location .mpfy-mll-l-categories a { margin-left: 0; margin-right: 5px; }
+
+.mpfy-mll-location .mpfy-mll-l-buttons { margin-bottom: 15px; }
+.mpfy-mll-location .mpfy-mll-l-buttons a,
+.mpfy-mll-button { display: inline-block; font-size: 13px; line-height: 34px; background: #ffffff; color: #535d66; border: 1px solid #c8c8c8; border-radius: 3px; margin-right: 10px; padding: 0 12px; white-space: nowrap; text-decoration: none; }
+.mpfy-mll-location .mpfy-mll-l-buttons a:hover,
+.mpfy-mll-button:hover { text-decoration: none; background: #535d66; color: #f4f4f4; }
+
+.mpfy-mll-paging .mpfy-mll-button-prev,
+.mpfy-mll-paging .mpfy-mll-button-next { position: absolute; display: block; float: none; margin: 0; left: 0; top: 0; }
+.mpfy-mll-paging .mpfy-mll-button-next { left: auto; right: 0; }
+.mpfy-mll-paging .mpfy-mll-paging-status { line-height: 36px; text-align: center; }

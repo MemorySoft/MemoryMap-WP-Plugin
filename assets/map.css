@@ -1,0 +1,428 @@
+.cl
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    clear: both; 
+    height: 0;
+    text-indent: -4000px;
+}
+.mpfy-notext
+{
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    text-indent: -4000px;
+}
+
+.mpfy-fullwrap
+{
+    position: relative;
+    margin-bottom: 8px;
+}
+.mpfy-fullwrap img
+{
+    max-width: none;
+}
+
+.mpfy-map
+{
+    position: relative;
+    overflow: hidden;
+}
+.mpfy-zoom-in
+{
+    font-size: 0;
+    line-height: 0;
+    position: relative; 
+    z-index: 11;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 20px 0 0 10px;
+    text-indent: -4000px;
+    background: url(images/zoom-in.png) no-repeat 0 0;
+}
+.mpfy-zoom-out
+{
+    font-size: 0;
+    line-height: 0;
+    position: relative; 
+    z-index: 11;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 0px;
+    text-indent: -4000px;
+    background: url(images/zoom-out.png) no-repeat 0 0;
+}
+
+.mpfy-sugerir {
+    position: relative; 
+    z-index: 11;
+    float: right;
+    margin: 25px 20px 0 10px;
+}
+@media screen and (max-width: 640px) {
+    .mpfy-sugerir {
+        font-size: .8rem;   
+        padding: .5rem 1rem .5rem;
+    }   
+}
+
+.mpfy-tooltip
+{
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 420px;
+    opacity: 1;
+}
+.mpfy-tooltip .inner-wrap
+{
+    position: relative;
+    top: 0; 
+    left: 0;
+}
+.mpfy-tooltip p
+{
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
+
+.mpfy-tooltip .center
+{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 25px #666;
+}
+.mpfy-tooltip .bottom
+{
+    width: 30px;
+    height: 10px;
+    margin: 0 auto;
+    border-top: 10px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    background: url('images/tooltip_arrow.png') no-repeat;
+    /* -index: 9999999;*/
+}
+.mpfy-tooltip .mpfy-close-tooltip
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 21px;
+}
+
+.mpfy-tooltip.mpfy-flip-tooltip .top
+{
+    width: 0;
+    margin: 0 auto;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #fff;
+    border-left: 15px solid transparent;
+}
+.mpfy-tooltip.mpfy-flip-tooltip .bottom
+{
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.mpfy-tooltip.mpfy-flip-tooltip .mpfy-close-tooltip
+{
+    top: 25px;
+}
+
+.mpfy-tooltip .mpfy-directions-button
+{
+    font-weight: bold;
+    line-height: 17px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box; 
+    width: auto;
+    height: 17px;
+    margin: 15px 0 -5px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000 !important;
+    background: #FED130;
+}
+.mpfy-tooltip .mpfy-directions-button:hover
+{
+    color: #FED130 !important;
+    background: #000;
+}
+
+.mpfy-controls-wrap
+{
+    position: absolute;
+    top: -23px; 
+    right: 0;
+    left: 0;
+}
+.mpfy-controls-bar
+{
+    position: relative;
+    width: 100%;
+    height: 47px;
+    background: #FED130;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+    z-index: 100;
+}
+.mpfy-controls
+{
+    position: relative;
+    overflow: hidden;
+}
+.mpfy-controls input,
+.mpfy-controls .mpfy-select-value
+{
+    font-size: 12px; 
+    color: #717171;
+}
+.mpfy-controls label
+{
+    font-size: 12px; 
+    font-weight: bold;
+    line-height: 34px;
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    color: #fff;
+}
+.mpfy-controls .select
+{
+    position: relative; 
+    float: left;
+    overflow: hidden;
+    height: 34px;
+    border-radius: 3px;
+    background: #fff url(images/select-arrow.png) no-repeat right center;
+}
+.mpfy-controls .select select
+{
+    width: 140px;
+    height: 34px;
+    padding: 0;
+    opacity: 1;
+}
+.mpfy-controls .select-value
+{
+    line-height: 34px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden; 
+    padding: 0 10px;
+    white-space: nowrap;
+}
+.mpfy-controls .mpfy-search-wrap
+{
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box; 
+    width: 333px;
+    height: 47px;
+    background: #fff;
+}
+.mpfy-controls .mpfy-search-wrap .mpfy_search
+{
+    display: inline;
+    float: left;
+    width: 220px;
+    height: 47px;
+    margin: 0 20px 0 0; 
+    padding: 0 0 0 10px;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    font-size: 16px
+
+}
+.mpfy-controls .mpfy-search-wrap .mpfy_search_button
+{
+    display: inline;
+    float: right;
+    width: 89px;
+    height: 47px; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #000;
+    color: #fff;
+    font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.mpfy-controls .mpfy-filter
+{
+    float: right;
+}
+.mpfy-controls .mpfy-search-form
+{
+    float: right;
+    margin-left: 5px;
+}
+
+.mpfy-controls-mobile
+{
+    padding: 0 5px;
+}
+.mpfy-controls-mobile .mpfy-search-form
+{
+    display: block;
+    float: none;
+    margin: 5px 0;
+}
+.mpfy-controls-mobile .mpfy-search-wrap
+{
+    width: auto;
+}
+.mpfy-controls-mobile .mpfy-filter
+{
+    float: none;
+    margin: 5px 0;
+}
+.mpfy-controls-mobile .select
+{
+    float: none;
+    width: 100%;
+}
+.mpfy-controls-mobile .select select
+{
+    width: 100%;
+}
+.mpfy-controls-mobile label
+{
+    display: none;
+}
+.mpfy-controls-mobile .mpfy-search-wrap .mpfy_search
+{
+    width: 100%; 
+    margin: 0;
+}
+.mpfy-controls-mobile .mpfy-search-wrap
+{
+    position: relative; 
+    padding: 2px 94px 0 7px;
+}
+.mpfy-controls-mobile .mpfy-search-wrap .mpfy_search_button
+{
+    position: absolute;
+    top: 2px; 
+    right: 2px;
+}
+
+.mpfy-controls-mobile .mpfy_search
+{
+    margin: 0;
+}
+
+.mpfy-hidden-tag
+{
+    display: none;
+}
+.mpfy-hidden-search
+{
+    display: none;
+}
+
+.mpfy-search-form
+{
+    display: inline;
+    float: right;
+}
+.mpfy-search-form .mpfy-search-wrap
+{
+    position: relative;
+}
+.mpfy-search-form .mpfy-search-wrap .mpfy-clear-search
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    right: 102px;
+    display: none;
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    text-indent: -4000px; 
+    background: url(images/icon-refresh.png) no-repeat 0 0;
+}
+
+.mpfy-tags-list
+{
+    width: auto;
+    position: absolute;
+    top: 0;
+    background: #fed130;
+}
+.mpfy-tags-list a.mpfy-tl-item
+{
+    line-height: 27px;
+    position: relative;
+    display: inline;
+    float: left;
+    box-sizing: border-box;
+    height: 27px;
+    margin: 10px 10px;
+    text-decoration: none; 
+    color: #000;
+}
+.mpfy-tags-list a.mpfy-tl-item:hover
+{
+    text-decoration: underline; 
+    color: #000;
+}
+.mpfy-tags-list a.mpfy-tl-item:nth-of-type(1)
+{
+    font-weight: bold;
+}
+
+
+/* Mapify.it theme compatibility fix*/
+#map .map-bg
+{
+    display: none;
+}
+
+/* WD */
+.tab_both
+{
+    position: absolute;
+    z-index: 1001;
+
+    width: auto;
+    max-width: 400px;
+}
+.tab_both li
+{
+    float: left;
+
+    width: auto;
+    height: 100%;
+    margin: 7px 0;
+
+    list-style: none;
+
+    background-color: #3f3f3f;
+}
+.tab_both a
+{
+    padding: 13px 15px;
+
+    color: #a7a7a7;
+    background-color: #3f3f3f;
+}
+/* WD End*/

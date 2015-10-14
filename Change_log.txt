@@ -1,0 +1,6 @@
+=== MemoryMap v1.1 ===
+Fork hecho por Memory Soft de MapifyPro
+
+=== Cambios de esta versión ===
+
+* Agregado formulario de envio de sugerencias

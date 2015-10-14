@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'helvetica_neue_lt_stdroman';
+    src: url('fonts/helveticaneueltstd-roman-font.woff') format('woff'),
+         url('fonts/helveticaneueltstd-roman-font.ttf') format('truetype'),
+         url('fonts/helveticaneueltstd-roman-font.svg#helvetica_neue_lt_stdroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica_neuebold';
+    src: url('fonts/helveticaneuebold-font.woff') format('woff'),
+         url('fonts/helveticaneuebold-font.ttf') format('truetype'),
+         url('fonts/helveticaneuebold-font.svg#helvetica_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica_neuebold_italic';
+    src: url('fonts/helveticaneuebolditalic-font.woff') format('woff'),
+         url('fonts/helveticaneuebolditalic-font.ttf') format('truetype'),
+         url('fonts/helveticaneuebolditalic-font.svg#helvetica_neuebold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica_neueitalic';
+    src: url('fonts/helveticaneueitalic-font.woff') format('woff'),
+         url('fonts/helveticaneueitalic-font.ttf') format('truetype'),
+         url('fonts/helveticaneueitalic-font.svg#helvetica_neueitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

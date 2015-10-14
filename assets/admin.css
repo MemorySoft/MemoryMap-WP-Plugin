@@ -1,0 +1,10 @@
+.custom-mapping-shell .cl { display: block; float: none; height: 0px; font-size: 0px; line-height: 0px; text-indent: -4000px; clear: both; }
+
+.custom-mapping-shell form table td,
+.custom-mapping-shell form table th { text-align: left; vertical-align: top; }
+
+.custom-mapping-shell form table .mpfy-label { width: 220px; }
+.custom-mapping-shell form table .mpfy-field {  }
+
+.custom-mapping-shell form table .mpfy-field input { width: 200px; }
+.custom-mapping-loading { display: inline-block; width: 32px; height: 32px; background: url(images/ajax-loader.gif) no-repeat 0 0; }

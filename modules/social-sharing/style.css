@@ -1,0 +1,36 @@
+.mpfy-p-social-small a,
+.mpfy-p-social-small a:hover,
+.mpfy-p-social-small a,
+.mpfy-p-social-small-open a { 
+	-webkit-transition: opacity 0.4s;
+	   -moz-transition: opacity 0.4s;
+	     -o-transition: opacity 0.4s;
+	        transition: opacity 0.4s;
+}
+
+.mpfy-p-social-small { position: absolute; left: -24px; top: 0; background: #fff; width: 24px; text-align: center; background: #FFF; }
+.mpfy-p-social-small .mpfy-social-btn { display: block; overflow: hidden; }
+
+/* ipad portrait */
+@media only screen and (min-width: 768px) and (max-width: 985px){
+	.mpfy-p-popup-style-two .mpfy-p-social-small { position: absolute; left: auto; right: 47px; top: 7px; background: transparent; z-index: 10; cursor: pointer; height: 30px; }
+	.mpfy-p-popup-style-two .mpfy-p-social-small:before { content: ' '; display: block; background: url(images/share-icon.png) no-repeat left top; width: 30px; height: 30px; }
+	.mpfy-p-popup-style-two .mpfy-p-social-small .mpfy-social-btn { visibility: hidden; opacity: 0; background: #FFFFFF; }
+	
+	.mpfy-p-popup-style-two .mpfy-p-social-small-open .mpfy-social-btn { visibility: visible; opacity: 1; }
+}
+
+/* ===========================
+	# All Mobile Sizes (devices and browser)
+============================ */
+
+@media only screen and (max-width: 767px) {
+	.mpfy-p-popup-style-two .mpfy-p-social-small { position: absolute; left: auto; right: 47px; top: 7px; background: transparent; z-index: 10; cursor: pointer; height: 30px; }
+	.mpfy-p-popup-style-two .mpfy-p-social-small:before { content: ' '; display: block; background: url(images/share-icon.png) no-repeat left top; width: 30px; height: 30px; }
+
+	.mpfy-p-social-small { position: absolute; left: 10px; top: 7px; background: transparent; z-index: 10; cursor: pointer; height: 30px; }
+	.mpfy-p-social-small:before { content: ' '; display: block; background: url(images/share-icon.png) no-repeat left top; width: 30px; height: 30px; }
+	.mpfy-p-social-small .mpfy-social-btn { visibility: hidden; opacity: 0; background: #FFFFFF; }
+
+	.mpfy-p-social-small-open .mpfy-social-btn { visibility: visible; opacity: 1; }
+}
